@@ -11,17 +11,12 @@ if(Meteor.isServer){
   })
 }
 
-let Schemas = {};
 // Create a Schema using simple-schema for a new SimpleTasks collection
 // It should have:
 // name: a String with 10 characters max
 // details: an optional String
 
-
-Schemas.SimpleTask = new SimpleSchema({
-
-});
-
+let Schemas = {};
 
 
 // Attach...
